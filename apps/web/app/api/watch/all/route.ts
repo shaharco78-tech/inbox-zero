@@ -6,7 +6,7 @@ import type { Logger } from "@/utils/logger";
 import { ensureEmailAccountsWatched } from "@/utils/email/watch-manager";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export const GET = withError("watch/all", async (request) => {
   if (!hasCronSecret(request)) {

@@ -15,7 +15,7 @@ import { checkSenderRuleHistory } from "@/utils/rule/check-sender-rule-history";
 import { createEmailProvider } from "@/utils/email/provider";
 import type { EmailProvider } from "@/utils/email/types";
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 const THRESHOLD_THREADS = 3;
 const MAX_RESULTS = 10;

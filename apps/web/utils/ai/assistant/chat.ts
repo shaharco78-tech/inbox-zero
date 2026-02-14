@@ -29,7 +29,7 @@ import {
   updateInboxFeaturesTool,
 } from "./chat-inbox-tools";
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export type {
   AddToKnowledgeBaseTool,

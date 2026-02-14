@@ -6,7 +6,7 @@ import { captureException } from "@/utils/error";
 import { processAllFollowUpReminders } from "./process";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export const GET = withError("follow-up-reminders", async (request) => {
   if (!hasCronSecret(request)) {

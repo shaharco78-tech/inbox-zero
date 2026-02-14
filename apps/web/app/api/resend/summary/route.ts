@@ -14,7 +14,7 @@ import { decodeSnippet } from "@/utils/gmail/decode";
 import { createUnsubscribeToken } from "@/utils/unsubscribe";
 import { sendSummaryEmailBody } from "./validation";
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export const GET = withEmailAccount("resend/summary", async (request) => {
   // send to self
