@@ -59,8 +59,6 @@ import {
   type ActivityLogEntry,
 } from "@/app/(app)/[emailAccountId]/assistant/BulkProcessActivityLog";
 
-export const maxDuration = 3;
-
 export default function Components() {
   const { selectedValues, setSelectedValues } = useMultiSelectFilter([
     "alerts",

@@ -24,8 +24,6 @@ import {
   getStepNumber,
 } from "@/app/(app)/[emailAccountId]/onboarding/steps";
 
-export const maxDuration = 300; // Applies to the actions
-
 const tabOptions = (emailAccountId: string) => [
   {
     id: "rules",
