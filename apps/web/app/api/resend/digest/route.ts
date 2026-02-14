@@ -24,7 +24,7 @@ import { createEmailProvider } from "@/utils/email/provider";
 import { sleep } from "@/utils/sleep";
 import { withQstashOrInternal } from "@/utils/qstash";
 
-export const maxDuration = 60;
+export const maxDuration = 300;
 
 type SendEmailResult = {
   success: boolean;

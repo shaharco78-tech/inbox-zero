@@ -6,7 +6,7 @@ import { OnboardingContent } from "@/app/(app)/[emailAccountId]/onboarding/Onboa
 import { registerUtmTracking } from "@/app/(landing)/welcome/utms";
 import { auth } from "@/utils/auth";
 
-export const maxDuration = 60;
+export const maxDuration = 300;
 
 export const metadata: Metadata = {
   title: "Onboarding | Inbox Zero",

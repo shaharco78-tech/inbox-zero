@@ -9,7 +9,7 @@ import { prefixPath } from "@/utils/path";
 import { Chat } from "@/components/assistant-chat/chat";
 import { checkUserOwnsEmailAccount } from "@/utils/email-account";
 
-export const maxDuration = 60; // Applies to the actions
+export const maxDuration = 300; // Applies to the actions
 
 export default async function AssistantPage({
   params,
