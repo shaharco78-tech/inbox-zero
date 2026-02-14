@@ -15,6 +15,8 @@ import { DebugLabels } from "@/app/(app)/admin/DebugLabels";
 import { PageWrapper } from "@/components/PageWrapper";
 import { PageHeader } from "@/components/PageHeader";
 
+export const maxDuration = 30;
+
 export default async function AdminPage() {
   const session = await auth();
 
