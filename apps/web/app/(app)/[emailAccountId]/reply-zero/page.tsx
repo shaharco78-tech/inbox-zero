@@ -16,7 +16,7 @@ import { prefixPath } from "@/utils/path";
 import { checkUserOwnsEmailAccount } from "@/utils/email-account";
 import { CONVERSATION_STATUS_TYPES } from "@/utils/reply-tracker/conversation-status-config";
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export default async function ReplyTrackerPage(props: {
   params: Promise<{ emailAccountId: string }>;

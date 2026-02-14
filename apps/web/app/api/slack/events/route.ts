@@ -4,7 +4,7 @@ import { env } from "@/env";
 import { verifySlackSignature } from "@inboxzero/slack";
 import { processSlackEvent } from "@/utils/slack/process-slack-event";
 
-export const maxDuration = 120;
+export const maxDuration = 60;
 
 export const POST = withError("slack/events", async (request) => {
   const logger = request.logger;

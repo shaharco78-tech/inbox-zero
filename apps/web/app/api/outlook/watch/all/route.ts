@@ -8,7 +8,7 @@ import { createManagedOutlookSubscription } from "@/utils/outlook/subscription-m
 import type { Logger } from "@/utils/logger";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 export const GET = withError("outlook/watch/all", async (request) => {
   if (!hasCronSecret(request)) {
